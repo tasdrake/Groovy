@@ -1,6 +1,6 @@
 class Raindrops {
 
-    def convert(num) {
+    def convert(Integer num) {
         if (num % 3 == 0 && num % 5 == 0 && num % 7 == 0) {
           return "PlingPlangPlong";
         } else if (num % 3 == 0 && num % 5 == 0) {
