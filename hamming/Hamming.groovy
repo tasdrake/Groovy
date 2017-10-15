@@ -12,9 +12,6 @@ class Hamming {
         def test = {s1, s2 -> s1 != s2 ? count ++ : null}
 
         for (def i = 0; i < length; i++) {
-            // if (test(strand1[i], strand2[i])) {
-            //     count++;
-            // }
             test(strand1[i], strand2[i]);
         }
 
